@@ -57,3 +57,40 @@ header section{
     font-family: sans-serif;
     margin-left: 365.5px;
 }
+/* Action Section begins */
+.action{
+    width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+}
+.see-it-in-action h2{
+    width: 517px;
+    height: 49px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.see-it-in-action p{
+   width: 517px;
+    height: 60px;
+    font-size: 24px;
+    color:rgba(37, 36, 50, 0.5);
+}
+.see-it-in-action button{
+    width: 229px;
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.webflow-conf img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
