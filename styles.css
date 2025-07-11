@@ -1,4 +1,8 @@
+body{
+    background-color: #F7F9FC ;
+}
 /* Navigation bar begins */
+
 header{
     width: 1440px;
     height: 698px;
@@ -182,11 +186,61 @@ header section{
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     padding-left: 20px;
 }
-.stars{
-    color:gold;
-    margin-top: 24px;
-}
 .name1{
     color: #757575;
 }
 .date1{color: #B3B3B3;}
+/* Lets get in touch section begins */
+.lets-get-in-touch{
+    width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 93px;
+    align-items: center;
+}
+.section-title p{
+    width: 528px;
+    height: 232px;
+    font-size: 97px;
+    font-weight: bolder;
+}
+form{
+    width: 497px;
+    height: 490px;
+    margin-top: 71px;
+    margin-bottom: 71px;
+}
+label{
+    display: block;
+    font-size: 18px;
+    margin-top: 19px;
+}
+form input{
+    width: 497px;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+input::placeholder, textarea{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+textarea{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 19px;
+}
+.get-in-touch{
+    width: 497px;
+    height: 62px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
