@@ -5,19 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B12 A01 Landing Launchpad</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- fonts from google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">LOGO</div>
             <div>
-                <button class="sign-up">Sign Up</button>
+                <button class="sign-up animate">Sign Up</button>
             </div>
         </nav>
         <section>
             <div class="banner">
                 <p class="cool-dark-ui">Cool Dark UI Templates for<br>Webflow Agencies!</p>
-                <button class="stay-focused">Stay Focused</button>
+                <button class="stay-focused animate">Stay Focused</button>
             </div>
         </section>
     </header>
@@ -26,7 +34,7 @@
             <div class="see-it-in-action">
                 <h2>See It in Action</h2>
                 <p>Explore the live preview and imagine your brand in this bold new look.</p>
-                <button>Launch Live Preview</button>
+                <button class="animate">Launch Live Preview</button>
 
             </div>
             <div class="webflow-conf">
@@ -112,17 +120,28 @@
             <div class="form">
                 <form>
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="   example@email.com">
+                    <input required type="email" id="email" name="email" placeholder="   example@email.com">
                     <label for="name">Name</label>
-                    <input type="text"  name="name" id="name" placeholder="   Full Name">
+                    <input required type="text"  name="name" id="name" placeholder="   Full Name">
                     <label for="message">Message</label>
                     <textarea name="message" id="message" rows="5" cols="43"> Write your message...</textarea>
-                    <button class="get-in-touch">Get in Touch</button>
+                    <button class="get-in-touch animate">Get in Touch</button>
                 </form>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="parent">
+            <h1 class="footer-logo">LOGO</h1>
+            <p>Ready to elevate your online presence? Contact us today to discuss<br> your project and discover how we can bring your vision to life.</p>
+            <nav class="footer-nav">
+                <div><a href="">Home</a></div>
+                <div><a href="">About</a></div>
+                <div><a href="">How it works</a></div>
+                <div><a href="">Services</a></div>
+            </nav>
+        </div>
+    </footer>
     
 </body>
 </html>
